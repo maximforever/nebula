@@ -252,6 +252,9 @@ function main(){
 
                     animateMove(target_left_offset, target_top_offset);
 
+                    $("#play").css("color", "#0C5EB9");
+                    $("#stop").css("color", "black");
+
                 }
             }
         }
@@ -594,9 +597,13 @@ function main(){
 
     $("#stop").click(function(){
         if(audio){
-                console.log("stopping");
-                audio.pause();
-            }
+            console.log("stopping");
+            audio.pause();
+        }
+
+        $(this).css("color", "#0C5EB9");
+        $("#play").css("color", "black");
+
     });
 
     $("#play").click(function(){
@@ -604,6 +611,9 @@ function main(){
             console.log("resuming");
             audio.play();
         }
+
+        $(this).css("color", "#0C5EB9");
+        $("#stop").css("color", "black");
     });
 
 

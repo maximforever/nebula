@@ -1,24 +1,40 @@
+        <!-- 
 
         <div id = "status"></div>
         <div id = "count"></div>
-        <button id = "stop">STOP</button>
-        <button id = "play">PLAY</button>
+
+
+
         <div>Animating: <span id = "animating"></span></div>
         <div>Visible circles: <span id = "visible"></span></div>
         <div>Position: (<span id = "x-pos"></span>, <span id = "y-pos"></span>)</div>
         <div>Last click: (<span id = "click-xpos">0</span>, <span id = "click-ypos">0</span>)</div>
         <br>
         <br>
-        <div>Song: <span id = "song"></span></div>
-        <div>Artist: <span id = "artist"></span></div>
-        <div>Album: <span id = "album"></span></div>
-        <div>Tags: <span id = "tags"></span></div>
 
-        <canvas id="canvas" width="1000" height="562.5"></canvas>
+         -->
 
-        <div id  = "controls">
-            <button id = "move-up">     UP      </button><br>
-            <button id = "move-left">   LEFT    </button>
-            <button id = "move-down">   DOWN    </button>
-            <button id = "move-right">  RIGHT   </button>
-        </div>
+         <div class = "row">
+
+             <div class = "col-md-3">
+                 <div class = "song-card">
+                    <span id = "song">-</span>
+                    <span id = "artist">-</span>
+                    <span id = "album">-</span>
+                    <span id = "tags"></span>
+                </div> 
+                <div class = "controls">
+                    <span id = "play" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                    <span id = "stop"  class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+
+                </div>
+             </div>
+
+             <div class = "col-md-9">
+                <canvas id="canvas" width="1000" height="562.5"></canvas>
+             </div>
+         </div>
+        
+
+       
+

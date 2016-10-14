@@ -5,10 +5,13 @@
 #canvas {
     border: 1px solid black;
     vertical-align: middle;
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+
+/*    top: 15vh;
+    left: 20vw;*/
+  /*  transform: translate(-50%, -50%);*/
+
+    text-align: center;
+    margin-top: 2vh;
     background: #0B0915;
     border: 3px solid #201E28;
 }
@@ -35,4 +38,52 @@ h1{
 
 .subtitle{
     float: right;
+}
+
+.song-card {
+    background: #B4B4B4;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    margin: 2vh 2vw;
+}
+
+.song-card span{
+    display: block;
+    padding: 2px 0 2px 0;
+}
+
+#song{
+    color: #0C5EB9;
+    font-size: 22px;
+    background: #D9D9DA; 
+    padding: 2px;
+}
+
+
+#artist{
+    font-size: 18px;
+}
+
+
+#album{
+    font-size: 14px;
+}
+
+.controls{
+    margin: 2vh 2vw;
+    font-size: 3.5em;
+    background: #B4B4B4;
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    
+}
+
+.controls span{
+    width: 47%; 
+    background: #D9D9DA;
+    text-align: center;
+    padding: 10px 20px;
 }
