@@ -7,8 +7,8 @@ class PagesController < ApplicationController
 	@tracks = Track.all
 =end
 
-    @tracks = AWS::S3::Bucket.find('nebula-alpha').objects
-    
+#    @tracks = AWS::S3::Bucket.find('nebula-alpha').objects
+    @tracks = Track.all
   end
 
 

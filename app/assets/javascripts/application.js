@@ -590,5 +590,26 @@ function main(){
         return Math.random() * (max - min) + min;
     }
 
+//BUTTONS
+
+    $("#stop").click(function(){
+        if(audio){
+                console.log("stopping");
+                audio.pause();
+            }
+    });
+
+    $("#play").click(function(){
+        if(audio){
+            console.log("resuming");
+            audio.play();
+        }
+    });
+
 
 }
+
+
+
+// Buttons:
+

@@ -14,7 +14,7 @@ class TrackController < ApplicationController
   end
 
   def find
-    @track = Track.find_closest_2(params[:id])  #this'll change based on which algorithm we're using
+    @track = Track.find_closest_1(params[:id])  #this'll change based on which algorithm we're using
   end
 
 

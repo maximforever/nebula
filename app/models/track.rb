@@ -41,8 +41,6 @@ class Track < ActiveRecord::Base
 
   def self.find_closest_2(id)
     master = Track.find(id)             #this is the incoming track
-  
-
   end
 
 def self.find_similarity(other_track)
