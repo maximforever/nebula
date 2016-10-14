@@ -1,0 +1,12 @@
+<h2>The closest track to <%= Track.find(params[:id]).name %> is:</h2>
+
+<% @track.each do |t| %>
+
+<p>
+    <%= link_to t[0].name, closest_path(t[0].id) %>
+    <br>
+    Similar tags: <%= t[1] %>
+    <br>
+</p>
+
+<% end %>

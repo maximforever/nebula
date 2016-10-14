@@ -1,0 +1,13 @@
+<h2>Create new tag:</h2>
+
+<br>
+
+<%= form_for @tag do |t| %>
+   
+    Name:
+    <br>
+    <%= t.text_field :name %>
+    <br>
+    <%= t.submit "Create tag" %>
+
+<% end %>

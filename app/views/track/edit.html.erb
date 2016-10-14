@@ -1,0 +1,23 @@
+<h2>Settings for <%= @track.name %></h2>
+
+<%= form_for @track do |t| %>
+
+    <br>Name:
+    <br><%= t.text_field :name %>
+    <br>Artist:
+    <br><%= t.text_field :artist %>
+    <br>Album:
+    <br><%= t.text_field :album %>
+
+    <br>
+    <h5>Tags: </h5>
+
+    <% Tag.all.each do |tag| %>
+
+        <%= check_box_tag "track[tag_ids][]", tag.id, @track.tags.include?(tag)  %>
+        <%= tag.name %>
+        <br>
+    <% end %>
+    
+  <%= t.submit "Update preferences" %>
+<% end %>

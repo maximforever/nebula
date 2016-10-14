@@ -1,0 +1,34 @@
+<h2>Add tag to track:</h2>
+
+<%= form_for @tracktag do |t| %>
+
+    <table>
+        <tr>
+            <td>Tag</td>
+            <td>Track<td>
+        </tr>
+
+        <tr>
+            <% @tags.each do |s| %>
+
+                <td><%= check_box_tag :tag_id, s.id %><%= s.name %></td>
+
+                <!-- <td><%= t.radio_button :tag_id, s.id %><%= s.name %></td> -->
+
+            <% end %>
+        </tr>
+
+        <tr>
+            <% @tracks.each do |r| %>
+
+                <td><%= t.radio_button :track_id, r.id %><%= r.name %></td>
+
+            <% end %>
+        </tr>
+    </table>   
+
+
+
+    <%= t.submit "Add tag to track" %>
+
+<% end %>

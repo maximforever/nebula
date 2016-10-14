@@ -1,0 +1,28 @@
+<h2>Welcome to Nebula V 0.01     </h2>
+
+
+
+<% @tracks.each do |song| %>
+	<li><%= link_to song.key, download_url_for(song.key) %> </li>
+<% end %>
+
+
+
+
+<!-- this whole section is commented out -->
+
+<% if false %>
+
+<% @tracks.each do |t| %>
+    <p>
+        Name: <%=  link_to t.name, closest_path(t.id) %>, tags: <%= t.tags.length %> 
+        <%= link_to "[edit]", edit_track_path(t.id) %>
+        Tags: <% t.tags.each do |g| %>
+            <%= g.name %>
+        <% end %>
+    </p>
+<% end %>
+
+
+
+<% end %>
