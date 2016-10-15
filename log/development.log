@@ -37699,3 +37699,1262 @@ Processing by PagesController#map as HTML
   Rendered pages/map.html.erb within layouts/application (0.1ms)
   [1m[36mTrack Load (0.4ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
 Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:12:41 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (2.0ms)
+  [1m[35mTrack Load (1.5ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 154ms (Views: 139.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:12:41 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:12:42 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.2ms)
+  [1m[36mTrack Load (3.7ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 166ms (Views: 160.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:12:43 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:12:49 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.6ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:12:49 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:12:52 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:12:52 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:01 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.7ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:01 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:53 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:55 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (1.1ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:56 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:56 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:57 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (2.6ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 73ms (Views: 67.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:57 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:58 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.4ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:58 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:13:59 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.5ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:13:59 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:14:00 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:14:00 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:14:01 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.3ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:14:01 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:14:01 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:14:02 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:14:56 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.6ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 86ms (Views: 84.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-529e355bc96efb939ff2d2dcc5af0495d52d4a104bba5e69a33107ee71e0bb42.css?body=1" for ::1 at 2016-10-15 19:14:56 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:15:00 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-62552718595da75b747d6fd763982a055517bce69f2d99a3242416c394f38769.css?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/application.self-529e355bc96efb939ff2d2dcc5af0495d52d4a104bba5e69a33107ee71e0bb42.css?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:15:00 -0400
+
+
+Started GET "/" for ::1 at 2016-10-15 19:15:45 -0400
+Processing by PagesController#index as HTML
+  [1m[35mTrack Load (0.5ms)[0m  SELECT "tracks".* FROM "tracks"
+  [1m[36mTag Load (0.7ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 1]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 2]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 3]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 4]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 5]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 6]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 7]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 8]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 9]]
+  [1m[35mTag Load (0.4ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 10]]
+  [1m[36mTag Load (0.4ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 11]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 12]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 13]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 14]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 15]]
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 16]]
+  [1m[36mTag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 17]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 18]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 19]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 20]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 21]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 22]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 23]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 24]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 134ms (Views: 126.8ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-10-15 19:15:45 -0400
+
+
+Started GET "/" for ::1 at 2016-10-15 19:16:23 -0400
+Processing by PagesController#index as HTML
+  [1m[35mTrack Load (0.3ms)[0m  SELECT "tracks".* FROM "tracks"
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 1]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 2]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 3]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 4]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 5]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 6]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 7]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 8]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 9]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 10]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 11]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 12]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 13]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 14]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 15]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 16]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 17]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 18]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 19]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 20]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 21]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 22]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 23]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 24]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 130ms (Views: 126.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/pages.self-afd8c7f2ddcc1fd6b61bbbf1b7dc26988532056a19cb82b92e5cf1c6a1a95c58.css?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:16:24 -0400
+
+
+Started GET "/" for ::1 at 2016-10-15 19:16:28 -0400
+Processing by PagesController#index as HTML
+  [1m[35mTrack Load (0.4ms)[0m  SELECT "tracks".* FROM "tracks"
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 1]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 2]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 3]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 4]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 5]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 6]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 7]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 8]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 9]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 10]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 11]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 12]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 13]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 14]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 15]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 16]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 17]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 18]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 19]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 20]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 21]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 22]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 23]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 24]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 112ms (Views: 107.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:16:29 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:16:34 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.5ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 68ms (Views: 65.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:18:05 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.5ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:18:05 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:18:11 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.3ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:18:12 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:18:15 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.4ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:18:16 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:18:27 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.5ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:18:28 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:18:34 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.5ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:18:34 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:19:02 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.5ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:19:03 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:19:45 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (2.0ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 73ms (Views: 69.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:19:45 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:19:51 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.3ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:19:51 -0400
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:19:54 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.3ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-ebdbdf979a3fd65eaa13fea9f4d31f24922e2486a8599b69f24447b9035eee6d.css?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/track_tag.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/application.self-dc13bbeecbcb30d05dc563ef39b0d47cc65b0c0e5eb5105b05aaf9cdb4871b6c.css?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/track.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/track.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/track_tag.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b057524ac995c68ce334229b609a.js?body=1" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:19:54 -0400
