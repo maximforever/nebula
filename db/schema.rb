@@ -11,12 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161012030944) do
+ActiveRecord::Schema.define(version: 20161014213302) do
 
   create_table "tags", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "slow"
+    t.integer  "acoustic"
   end
 
   create_table "track_tags", force: :cascade do |t|
@@ -33,6 +35,8 @@ ActiveRecord::Schema.define(version: 20161012030944) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "url"
+    t.integer  "slow"
+    t.integer  "acoustic"
   end
 
 end

@@ -35,8 +35,8 @@ function main(){
     var HEIGHT = canvas.height();  
 
 
-    var MAP_HEIGHT = HEIGHT;
-    var MAP_WIDTH = WIDTH;
+    var MAP_HEIGHT = HEIGHT*1.5;
+    var MAP_WIDTH = WIDTH*1.5;
 
     //Canvas fix for mobile:
     
@@ -127,7 +127,7 @@ function main(){
                 for(i = 0; i < circles.length; i++){
 
                     var d = getDistance(circles[i], c);
-                    if(d < (circles[i].radius + c.radius + 10)){
+                    if(d < (circles[i].radius + c.radius + 10)*1.5){
                     
                         placed = false;
                     }
@@ -148,7 +148,36 @@ function main(){
     }
 
     function makeCircle(track){ 
-        c = new Circle(randBetween(RADIUS, MAP_WIDTH-RADIUS), randBetween(RADIUS, MAP_HEIGHT-RADIUS), RADIUS, track);
+        
+
+        // basing the position off the "slow" and "acoustic" properties baked into the tracl
+
+        var xPosition = (100-(track.slow * randBetween(0.9, 1.1)))/100*MAP_WIDTH;
+
+        if (xPosition > MAP_WIDTH){
+            xPosition = MAP_WIDTH;
+        }
+        if (xPosition < 0){
+            xPosition = 0;
+        }
+
+        var yPosition = (100-(track.acoustic * randBetween(0.9, 1.1)))/100*MAP_HEIGHT;
+
+        if (yPosition > MAP_HEIGHT){
+            yPosition = MAP_HEIGHT;
+        }
+        if (yPosition < 0){
+            yPosition = 0;
+        }
+
+
+
+        c = new Circle(xPosition, yPosition, RADIUS, track);
+        
+    //  c = new Circle(randBetween(RADIUS, MAP_WIDTH-RADIUS), randBetween(RADIUS, MAP_HEIGHT-RADIUS), RADIUS, track);
+        
+
+
         return c;
     }
 
@@ -364,6 +393,9 @@ function main(){
         this.album = track.album;
         this.artist = track.artist;
         this.url = track.url;
+
+      /*  this.slow = track.slow;
+        this.acoustic = track.acoustic*/;
 
 
     }

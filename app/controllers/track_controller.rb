@@ -38,7 +38,7 @@ class TrackController < ApplicationController
   private
 
   def track_params
-    params.require(:track).permit(:name, :artist, :album, :url, tag_ids: [])  #note how I'm handling the array of tag ids here!
+    params.require(:track).permit(:name, :artist, :album, :url, :slow, :acoustic, tag_ids: [])  #note how I'm handling the array of tag ids here!
   end
 
 
