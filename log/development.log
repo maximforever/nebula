@@ -38958,3 +38958,113 @@ Started GET "/assets/application.self-be7e76d230dfe2b7b369aece1899ee026f43b05752
 
 
 Started GET "/assets/logo-49509da45dad4e734ace57eb0c3ab52c5bf34c4f2116ce3d647032e9bbbae73e.jpg" for ::1 at 2016-10-15 19:19:54 -0400
+
+
+Started GET "/" for ::1 at 2016-10-15 19:22:36 -0400
+Processing by PagesController#index as HTML
+  [1m[35mTrack Load (0.4ms)[0m  SELECT "tracks".* FROM "tracks"
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 1]]
+  [1m[35mTag Load (0.4ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 2]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 3]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 4]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 5]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 6]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 7]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 8]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 9]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 10]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 11]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 12]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 13]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 14]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 15]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 16]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 17]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 18]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 19]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 20]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 21]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 22]]
+  [1m[36mTag Load (5.9ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 23]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 24]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 109ms (Views: 97.6ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/map" for ::1 at 2016-10-15 19:22:46 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[35mTrack Load (0.4ms)[0m  SELECT "tracks".* FROM "tracks"
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-15 19:45:47 -0400
+Processing by PagesController#index as HTML
+  [1m[36mTrack Load (0.5ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 1]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 2]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 3]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 4]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 5]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 6]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 7]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 8]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 9]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 10]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 12]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 13]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 14]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 15]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 16]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 17]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 18]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 19]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 20]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 21]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 22]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 23]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 24]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 67ms (Views: 63.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-16 00:53:58 -0400
+Processing by PagesController#index as HTML
+  [1m[36mTrack Load (2.2ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+  [1m[35mTag Load (0.4ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 1]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 2]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 3]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 4]]
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 5]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 6]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 7]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 8]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 9]]
+  [1m[36mTag Load (0.4ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 10]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 12]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 13]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 14]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 15]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 16]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 17]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 18]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 19]]
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 20]]
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 21]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 22]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 23]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?[0m  [["track_id", 24]]
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "track_tags" ON "tags"."id" = "track_tags"."tag_id" WHERE "track_tags"."track_id" = ?  [["track_id", 25]]
+  Rendered pages/index.html.erb within layouts/application (129.9ms)
+Completed 200 OK in 226ms (Views: 205.3ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/map" for ::1 at 2016-10-16 00:54:02 -0400
+Processing by PagesController#map as HTML
+  Rendered pages/map.html.erb within layouts/application (0.1ms)
+  [1m[36mTrack Load (0.6ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Completed 200 OK in 64ms (Views: 60.7ms | ActiveRecord: 0.6ms)
